@@ -8,7 +8,7 @@
 - **Role:** design + firmware
 - **Stack:** Siemens NX, Star-CCM+
 - **Result:** Increase downforce in Yaw by 10% and improved cooling by 5%.
-- **Repo:** [github.com/your-username/xyz](https://github.com/your-username/xyz)
+- **Repo:** https://github.com/your-username/xyz)](https://github.com/immmmsimon-debug/FSAE-Wake-Deflector
 - **Media:** <img src="assets/xyz-demo.gif" width="480"/>
 
 ### Open Steel Frame
