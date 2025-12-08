@@ -21,9 +21,18 @@
 - **Result:** Simulated & validated 4130 steel tube chassis (66 lb); reached 2700 Nm/deg frame stiffness @ wheel with 2% simulation error.
 
 
-### Orbes Sensor Fusion and Motor Control (Due to the fact that this was done at a company I am unable to disclose the codebase)
+### Orbes Sensor Fusion and Motor Control 
 - **Stack:** Python, C++, ESP32, Raspberry pi 5, Adafruits 9DOF IMU, Infrared Cameras, PiCam
 - **Result:** Implemented AprilTag yaw detection with 0.1° accuracy within 2 m for real‑time orientation control. Achieved 6 s settle time for 90° start–stop maneuvers.
+- You can see all reasoning, and final result inside the PowerPoint presentation where I partake in: The overal avionic/software artitechutre, communication protocal, Bus system, Camera Tracking system, Loggin, and sensors.
+  - To summarize:
+    - I created a sensor fusion code using the IMU gyro and accel data to eliminate drift in roll and pitch.
+    - In order to control the yaw drift, a april tag system was made, this also allow us to detect how far we are from the ground
+    - Created a bus system that guarantee fresh data is being fed into the Kalman Filter.
+    - Created a bus system that fed LQR output from the Pi into the ESP32s
+    - Help create the infared tracking program, but creating a PID that takes in the difference in pixel and output the require torque into the ESPs
+    
+- **Flaw:** The orbe still experience gimble lock, due the fact that we are still using Eular angles instead of Quadternions. Due to the fact that we are using IR we do not hae depth perception thus the tracking might over estimate how much it have to move. 
 
 ### Aero Components Mounts (USC FSAE)
 - **Role:** design + firmware + simulation
@@ -34,7 +43,7 @@
 
 
 ## About
-Currently a 2nd Year in Aerospace Engineering. Interested in Design, Analysis, and Controls. Open to internships.
+Currently a 2nd Year in Aerospace Engineering. Interested in Design, Analysis, and Controls.
 
 ## Contact
 smvo@usc.edu, vvxuankhang@gmail.com, 626-804-0853
