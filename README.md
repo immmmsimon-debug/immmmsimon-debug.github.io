@@ -11,7 +11,12 @@
 - **Skills Learn:** Design for Manufractuing, Aerodynamics Validation using Pitots Tubes, Rapid Iteration, Aerodynamic design & CFD analysis  
 - **Result:** Increase downforce in Yaw by 60N, and lower yaw sensitivity by 7%.
 - **Repo:** https://github.com/immmmsimon-debug/FSAE-Wake-Deflector
-
+<p align="center">
+<img width="250" height="215" alt="image (2)" src="https://github.com/user-attachments/assets/ed54389f-01ff-4d11-9454-89a731703491" />
+<img width="133" height="370" alt="image (3)" src="https://github.com/user-attachments/assets/f317cca4-b38d-4ffd-bb6d-358ba5b71f00" />
+<img width="117" height="360" alt="image (4)" src="https://github.com/user-attachments/assets/bf6515d6-38c0-4582-80cb-38e93e425d0f" />
+<img width="175" height="210" alt="image (5)" src="https://github.com/user-attachments/assets/3dbc07fe-219d-4074-b5c5-6190a69e850a" />
+</p>
 
 ### Open Steel Frame (USC FSAE IC)
 - **Role:** design + simulation
@@ -40,7 +45,7 @@
     
 - **Flaw:** The orbe still experience gimble lock, due the fact that we are still using Eular angles instead of Quadternions. Due to the fact that we are using IR we do not hae depth perception thus the tracking might over estimate how much it have to move. 
 
-]
+
 
 
 
