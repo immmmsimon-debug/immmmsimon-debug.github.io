@@ -24,6 +24,7 @@
 - **Goals:** Previous aero mount are over engineer, thus the mount need to be redesign to reduce weight in addtion to the increase in the aero package weight.
 - **Skills Learn:** Design for Manufracturing, Structural FEA
 - **Result:** Reduce Mass by 30% while experiecing 50% more load.
+- **Repo:** https://github.com/immmmsimon-debug/FSAE_Aerodynamic_Mount
 
 
 ### Orbes Sensor Fusion and Motor Control (Orbital Entertainment System)
