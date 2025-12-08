@@ -23,7 +23,7 @@
 - **Goals:** To create a structural simulation model that will characterize the stiffness of the frame to perform rapid iteration in order to save weight while maitaining desire stifness.
 - **Skills Learn:** Structural FEA, Design for Manufractuing, Tube-frame modeling, Simulation correlation & validation against physical measurements, 
 - **Result:** Simulated & validated 4130 steel tube chassis (66 lb); reached 2700 Nm/deg frame stiffness @ wheel with 2% simulation error.
-- **Repo:** https://github.com/immmmsimon-debug/FSAE_Steel_Frame_FEA/blob/main/README.md
+- **Repo:** https://github.com/immmmsimon-debug/FSAE_Steel_Frame_FEA/tree/main
 <p align="center">
 <img width="1614" height="886" alt="Screenshot 2025-12-08 at 8 49 19 AM" src="https://github.com/user-attachments/assets/e5ab6ddb-17c2-4431-807d-f1dafcdcbc7e" />
 </p>
