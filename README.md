@@ -23,6 +23,9 @@
 - **Goals:** To create a structural simulation model that will characterize the stiffness of the frame to perform rapid iteration in order to save weight while maitaining desire stifness.
 - **Skills Learn:** Structural FEA, Design for Manufractuing, Tube-frame modeling, Simulation correlation & validation against physical measurements, 
 - **Result:** Simulated & validated 4130 steel tube chassis (66 lb); reached 2700 Nm/deg frame stiffness @ wheel with 2% simulation error.
+<p align="center">
+<img width="1614" height="886" alt="Screenshot 2025-12-08 at 8 49 19 AM" src="https://github.com/user-attachments/assets/e5ab6ddb-17c2-4431-807d-f1dafcdcbc7e" />
+</p>
 
 ### Aero Components Mounts (USC FSAE)
 - **Role:** design + firmware + simulation
@@ -30,7 +33,10 @@
 - **Skills Learn:** Design for Manufracturing, Structural FEA
 - **Result:** Reduce Mass by 30% while experiecing 50% more load.
 - **Repo:** https://github.com/immmmsimon-debug/FSAE_Aerodynamic_Mount
+<p align="center">
+<img width="1313" height="509" alt="image" src="https://github.com/user-attachments/assets/bfcbb548-97d9-4568-a8d3-6666388ed6f3" />
 
+</p>
 
 ### Orbes Sensor Fusion and Motor Control (Orbital Entertainment System)
 - **Stack:** Python, C++, ESP32, Raspberry pi 5, Adafruits 9DOF IMU, Infrared Cameras, PiCam
